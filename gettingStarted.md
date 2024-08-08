@@ -9,7 +9,6 @@ subcollection: sap-ase-managed
 {{site.data.keyword.attribute-definition-list}}
 
 # Getting Started
-
 {: #getting-started}
 
 To get started with SAP Adaptive Server Enterprise Cloud Edition on IBM Cloud,
