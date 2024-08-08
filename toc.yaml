@@ -1,0 +1,27 @@
+toc:
+  properties:
+    subcollection: sap-ase-managed
+    service-name: sap-ase-managed
+    category: platform_services
+    audience: service
+    href: /docs/sap-ase-managed
+    console-page: /catalog/services/sap-ase-managed
+    path: sap-ase-managed
+    label: SAP Adaptive Server Enterprise Cloud Edition on IBM Cloud
+  entries:
+    - navgroup:
+        id: learn
+        topics:
+          - index.md
+          - gettingStarted.md
+    - navgroup:
+        id: howto
+        topics:
+          - provisioning.md
+          - connect.md
+          - access.md
+    - navgroup:
+        id: help
+        topics:
+          - support.md
+          - faqs.md
