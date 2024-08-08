@@ -37,7 +37,7 @@ Review the following tables that outline what types of tasks each role allows wh
 | Administrator | You can perform all platform actions based on the resource this role is assigned, including assigning access policies to other users. |
 {: row-headers}
 {: class="simple-tab-table"}
-{: caption="Table 2. IAM SAP ASE Cloud Edition on IBM Cloud Platform Roles" caption-side="bottom"}
+{: caption="Table 1. IAM SAP ASE Cloud Edition on IBM Cloud Platform Roles" caption-side="bottom"}
 {: #iamrolesplatformsapaseceonibmcloud}
 {: tab-title="SAP ASE Cloud Edition on IBM Cloud Platform roles"}
 {: tab-group="IAMSAPASECE"}

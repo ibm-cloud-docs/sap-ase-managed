@@ -9,7 +9,6 @@ subcollection: sap-ase-managed
 {{site.data.keyword.attribute-definition-list}}
 
 # Getting Support
-
 {: #getting-support}
 
 If you experience an issue or have questions when using SAP Adaptive Server Enterprise Cloud Edition on IBM Cloud, reference this guide.
