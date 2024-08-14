@@ -66,15 +66,15 @@ Depending on the plan selected, further options can be applied to the instance c
 
 SAP ASE Instances come in a range of sizes. Refer to the table to determine the best size for your instance.
 
-| Size      | Compute (vCPU) | Memory (GB RAM) | Storage | Total Block Storage (3 IOPs GB) | Total COS |
-| --------- | -------------- | --------------- | ------- | ------------------------------- | --------- |
-| X-Small   | 2              | 8               | 256     | 512                             | 2150      |
-| Small     | 4              | 32              | 512     | 1024                            | 4301      |
-| Medium    | 8              | 64              | 1024    | 2048                            | 8602      |
-| Large     | 16             | 128             | 1536    | 3072                            | 12902     |
-| X-Large   | 32             | 256             | 2048    | 4096                            | 17203     |
-| XX-Large  | 64             | 512             | 3072    | 6144                            | 25805     |
-| XXX-Large | 128            | 1024            | 5120    | 10240                           | 43008     |
+| Size      | Compute (vCPU) | Memory (GB RAM) | Storage | Max Additional Storage |
+| --------- | -------------- | --------------- | ------- | ---------------------- |
+| X-Small   | 2              | 8               | 256     | 456                    |
+| Small     | 4              | 32              | 512     | 1012                   |
+| Medium    | 8              | 64              | 1024    | 1524                   |
+| Large     | 16             | 128             | 1536    | 2036                   |
+| X-Large   | 32             | 256             | 2048    | 3048                   |
+| XX-Large  | 64             | 512             | 3072    | 5072                   |
+| XXX-Large | 128            | 1024            | 5120    | 15920                  |
 {: caption="Table 2. SAP ASE Instance Size Options" caption-side="bottom"}
 
 ### Advanced Configuration
