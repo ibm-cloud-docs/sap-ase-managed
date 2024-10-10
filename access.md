@@ -37,7 +37,7 @@ Review the following tables that outline what types of tasks each role allows wh
 | Administrator | You can perform all platform actions based on the resource this role is assigned, including assigning access policies to other users. |
 {: row-headers}
 {: class="simple-tab-table"}
-{: caption="Table 1. IAM SAP ASE Cloud Edition on IBM Cloud Platform Roles" caption-side="bottom"}
+{: caption="IAM SAP ASE Cloud Edition on IBM Cloud Platform Roles" caption-side="bottom"}
 {: #iamrolesplatformsapaseceonibmcloud}
 {: tab-title="SAP ASE Cloud Edition on IBM Cloud Platform roles"}
 {: tab-group="IAMSAPASECE"}
@@ -49,7 +49,7 @@ Review the following tables that outline what types of tasks each role allows wh
 | Manager      | You have permissions beyond the writer role that allows you to complete privileged actions, as defined by the service. In addition, you can create and edit service-specific resources. |
 {: row-headers}
 {: class="simple-tab-table"}
-{: caption="Table 2. SAP ASE Cloud Edition on IBM Cloud Service Access Roles" caption-side="bottom"}
+{: caption="SAP ASE Cloud Edition on IBM Cloud Service Access Roles" caption-side="bottom"}
 {: #iamrolesplatformsapaseceonibmcloud}
 {: tab-title="SAP ASE Cloud Edition on IBM Cloud Service roles"}
 {: tab-group="IAMSAPASECE"}

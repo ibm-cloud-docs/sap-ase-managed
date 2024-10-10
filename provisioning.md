@@ -59,7 +59,7 @@ Depending on the plan selected, further options can be applied to the instance c
 | Direct Link including Management               | Yes                                 | Yes                  |
 | Ad-hoc Work (half day)                         | Yes                                 | Yes                  |
 | Additional 3 IOPs Storage (in 100GB intervals) | Yes, with or without COS for backup | Yes                  |
-{: caption="Table 1. Post-Provisioning Options" caption-side="bottom"}
+{: caption="Post-Provisioning Options" caption-side="bottom"}
 
 ### SAP ASE Instance Size Options
 {: #sap-ase-instance-sizing-options}
@@ -75,7 +75,7 @@ SAP ASE Instances come in a range of sizes. Refer to the table to determine the 
 | X-Large   | 32             | 256             | 2048    | 3048                   |
 | XX-Large  | 64             | 512             | 3072    | 5072                   |
 | XXX-Large | 128            | 1024            | 5120    | 15920                  |
-{: caption="Table 2. SAP ASE Instance Size Options" caption-side="bottom"}
+{: caption="SAP ASE Instance Size Options" caption-side="bottom"}
 
 ### Advanced Configuration
 {: #advanced-configuration}
@@ -90,6 +90,6 @@ The default backup service includes
 | Daily full backup (database, transaction logs) | Last 7 days       |
 | Weekly full backup                             | Last 5 weeks      |
 | Monthly full backup                            | Last 3 months     |
-{: caption="Table 3. Default Backup Service" caption-side="bottom"}
+{: caption="Default Backup Service" caption-side="bottom"}
 
 Additional retention periods can be requested for each backup at an additional cost.
