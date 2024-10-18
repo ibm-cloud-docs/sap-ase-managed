@@ -41,10 +41,10 @@ In order to provide a clean separation of duties, the SAP ASE security model has
 
 The SAP ASE cloud edition provides automatic backups to your databases for the integrity of your database system. In production environments, daily full database backups are created and stored for 30 days. You can also request adhoc backups and adhoc restores through the self-service. Unless a custom backup strategy is defined, transaction logs are backed up every 30 minutes and stored for 30 days by default.s
 
-### Self Service Portal
-{: #self-service-portal}
+### Cloud ASE Portal
+{: #cloud-ase-portal}
 
-The SAP ASE Customer Self Service Portal provides customers with the ability to
+The Cloud ASE Portal provides customers with the ability to
 
 - upload and manage database encryption keys
 - restart ASE database servers
