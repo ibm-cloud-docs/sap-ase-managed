@@ -37,7 +37,7 @@ The Cloud ASE Portal is deployed on a private network. To access the portal, VPN
 7. Add a Profile and upload the OVPN file.
 8. Specify your IBM Cloud username in the username field.
 9. Click "Connect"
-10. When prompted to "Enter password", retrieve [a one time password from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode). If prompted to login, enter your IBM Cloud email and password. 
+10. When prompted to "Enter password", retrieve [a one time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode). If prompted to login, enter your IBM Cloud email and password. 
 11. Upon successful login, the toggle will be enabled next to the configured profile.
 12. Verify connection to the private network by navigating to the Cloud ASE Portal in the desired internet browser.
 
