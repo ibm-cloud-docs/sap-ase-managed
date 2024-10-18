@@ -8,7 +8,7 @@ subcollection: sap-ase-managed
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Cloud ASE Portal
+# Connecting to the Cloud ASE Portal
 {: #connect}
 
 The Cloud ASE Portal provides customers with the ability to
