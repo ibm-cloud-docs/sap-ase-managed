@@ -30,8 +30,7 @@ The Cloud ASE Portal is deployed on a private network. To access the portal, VPN
 
 1. Login to IBM Cloud
 2. Go to the Resource List and launch the Secrets Manager instance.
-3. Select "View Secret" for the `$PREFIX-vpn-server-config` under the 
-`$PREFIX-ssp-access-secret-group` secret group.
+3. Select "View Secret" for the `$PREFIX-vpn-server-config` under the `$PREFIX-ssp-access-secret-group` secret group.
 4. Download the Client Profile.
 5. Install and open [OpenVPN](https://openvpn.net/) connect.
 6. Unzip the downloaded Client Profile and locate the OVPN file.
@@ -64,6 +63,7 @@ For future connections, click the toggle next to the desired Profile to connect.
 4. Confirm you are in a safe environment and copy the secret value.
 5. Launch your desired internet browser and navigate to the Cloud ASE Portal.
 
+![Cloud ASE Portal Login](./images/portal-login.png){: caption="Login to Cloud ASE Portal" caption-side="bottom"}
 If you are unable to connect, verify that you have configured VPN access before continuing. VPN access is required to access the Cloud ASE Portal.
 {: tip}
 
