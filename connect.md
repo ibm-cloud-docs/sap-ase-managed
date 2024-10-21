@@ -52,8 +52,8 @@ For future connections, click the toggle next to the desired Profile to connect
 2. Go to the Resource List and launch the Secrets Manager instance.
 3. Select "View Secret" for the `$PREFIX-dba-initial-login` secret under the `$PREFIX-ssp-access-secret-group` secret group.
 4. Confirm you are in a safe environment and copy the secret value.
-5. Launch [OpenVPN](https://openvpn.net/) and connect to the Profile previously configured by enabling the toggle.
-6. Navigate to the Cloud ASE Portal.
+5. Launch [OpenVPN](https://openvpn.net/), click the toggle next to the Profile previously configured to connect.
+6. Open your desired internet browser and navigate to the Cloud ASE Portal.
 7. Login with the invited email and initial password from Secets Manager.
 
 It is strongly recommended that the initial password be updated. To update, click "Forgot Password" on the portal's Login page.
