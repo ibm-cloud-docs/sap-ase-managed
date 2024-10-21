@@ -17,6 +17,7 @@ The Cloud ASE Portal provides customers with the ability to
 - restart ASE database servers
 - execute ad-hoc back-ups and restores
 - drop databases
+- view important ASE config files 
 
 VPN access and initial credentials must be retrieved in order to connect to the Cloud ASE Portal.
 
@@ -29,24 +30,27 @@ The Cloud ASE Portal is deployed on a private network. To access the portal, VPN
 
 1. Login to IBM Cloud
 2. Go to the Resource List and launch the Secrets Manager instance.
-3. Select "View Secret" for the `$PREFIX-vpc-client-profile` under the 
-`$PREFIX-cloud-ase-portal-logins` secret group.
+3. Select "View Secret" for the `$PREFIX-vpn-server-config` under the 
+`$PREFIX-ssp-access-secret-group` secret group.
 4. Download the Client Profile.
-5. Unzip the downloaded Client Profile and locate the OVPN file.
-6. Install and open [OpenVPN](https://openvpn.net/) connect.
+5. Install and open [OpenVPN](https://openvpn.net/) connect.
+6. Unzip the downloaded Client Profile and locate the OVPN file.
 7. Add a Profile and upload the OVPN file.
 8. Specify your IBM Cloud username in the username field.
 9. Click "Connect"
-10. When prompted to "Enter password", retrieve [a one time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode). If prompted to login, enter your IBM Cloud email and password. 
+10. When prompted to "Enter password", retrieve [a one time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode). If prompted to login, enter your IBM Cloud email and password. If necessary, complete MFA requirements when prompted. 
 11. Upon successful login, the toggle will be enabled next to the configured profile.
 12. Verify connection to the private network by navigating to the Cloud ASE Portal in the desired internet browser.
+
+For future connections, click the toggle next to the desired Profile to connect 
+{: tip}
 
 ## Login to the Cloud ASE Portal 
 {: #login-to-the-cloud-ase-portal}
 
 1. Login to IBM Cloud.
 2. Go to the Resource List and launch the Secrets Manager instance.
-3. Select "View Secret" for the `$PREFIX-dba-initial-login` secret under the `$PREFIX-cloud-ase-portal-logins` secret group.
+3. Select "View Secret" for the `$PREFIX-dba-initial-login` secret under the `$PREFIX-ssp-access-secret-group` secret group.
 4. Confirm you are in a safe environment and copy the secret value.
 5. Launch [OpenVPN](https://openvpn.net/) and connect to the Profile previously configured by enabling the toggle.
 6. Navigate to the Cloud ASE Portal.

@@ -50,3 +50,4 @@ The Cloud ASE Portal provides customers with the ability to
 - restart ASE database servers
 - execute ad-hoc back-ups and restores
 - drop databases
+- view important ASE config files 
