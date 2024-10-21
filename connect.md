@@ -23,8 +23,8 @@ VPN access and initial credentials must be retrieved in order to connect to the 
 
 Be sure to accept the invitation to the IBM Cloud account. An IBMid is required to succesfully connect.
 
-## Securely Connect to the Cloud ASE Portal
-{: #securely-connect-to-the-cloud-ase-portal}
+## Configure VPN Access
+{: #configure-vpn-access}
 
 The Cloud ASE Portal is deployed on a private network. To access the portal, VPN access must be configured.
 
@@ -48,11 +48,9 @@ The Cloud ASE Portal is deployed on a private network. To access the portal, VPN
 
 ![Connect to VPN Profile](./images/password.png){: caption="Obtain MFA Password to connect to VPN Profile" caption-side="bottom"}
 
-11. Upon successful login, the toggle will be enabled next to the configured profile.
+11. Upon successful connection, the toggle will be enabled next to the configured profile.
 
 ![Successful Connect to VPN Profile](./images/connected.png){: caption="Connected to VPN" caption-side="bottom"}
-
-12. Verify connection to the private network by navigating to the Cloud ASE Portal in the desired internet browser.
 
 For future connections, click the toggle next to the desired Profile to connect.
 {: tip}
@@ -64,9 +62,12 @@ For future connections, click the toggle next to the desired Profile to connect.
 2. Go to the Resource List and launch the Secrets Manager instance.
 3. Select "View Secret" for the `$PREFIX-dba-initial-login` secret under the `$PREFIX-ssp-access-secret-group` secret group.
 4. Confirm you are in a safe environment and copy the secret value.
-5. Launch [OpenVPN](https://openvpn.net/), click the toggle next to the Profile previously configured to connect.
-6. Open your desired internet browser and navigate to the Cloud ASE Portal.
-7. Login with the invited email and initial password from Secets Manager.
+5. Launch your desired internet browser and navigate to the Cloud ASE Portal.
+
+If you are unable to connect, verify that you have configured VPN access before continuing. VPN access is required to access the Cloud ASE Portal.
+{: tip}
+
+6. Login with your IBM Cloud email and initial password from Secets Manager.
 
 It is strongly recommended that the initial password be updated. To update, click "Forgot Password" on the portal's Login page.
 {: tip}
