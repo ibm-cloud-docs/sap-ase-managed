@@ -49,6 +49,9 @@ The Cloud ASE Portal is deployed on a private network. To access the portal, VPN
 ![Connect to VPN Profile](./images/password.png){: caption="Obtain MFA Password to connect to VPN Profile" caption-side="bottom"}
 
 11. Upon successful login, the toggle will be enabled next to the configured profile.
+
+![Successful Connect to VPN Profile](./images/connected.png){: caption="Connected to VPN" caption-side="bottom"}
+
 12. Verify connection to the private network by navigating to the Cloud ASE Portal in the desired internet browser.
 
 For future connections, click the toggle next to the desired Profile to connect.
