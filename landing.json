@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "title": "SAP Adaptive Server Enterprise Cloud Edition on IBM Cloud",
+  "introduction": "Find useful information about SAP Adaptive Server Enterprise Cloud Edition on IBM Cloud.",
+  "console_page": "/catalog/services/managed-sap-ase",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started",
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-getting-started"
+      },
+      {
+        "title": "Managing IAM",
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-access"
+      },
+      {
+        "title": "Securely connecting to the Cloud ASE Portal",
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-connect"
+      },
+      {
+        "title": "FAQs",
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-faqs"
+      },
+      {
+        "title": "Getting support",
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-getting-support"
+      }
+    ]
+  }
+}
