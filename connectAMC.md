@@ -17,6 +17,7 @@ These instructions assume that you are using a Mac-based system.
 {: tip}
 
 ## Retrieve values from Secrets Manager
+{: #retrieve-secrets}
 
 1. Login to IBM Cloud.
 2. Go to the Resource List and launch the Secrets Manager instance.
@@ -25,6 +26,7 @@ These instructions assume that you are using a Mac-based system.
 5. Retrieve the AMC private certificate. Select "View Secret" for the `<% ase instance prefix %>-amc-private-cert`
 
 ## Add the private certificate to your keychain
+{: #add-private-cert-to-keychain}
 
 1. Open the AMC private certificate file from Secrets Manager.
 2. Click on your certificate's .pem file.
@@ -34,6 +36,7 @@ These instructions assume that you are using a Mac-based system.
 6. Expand the "Trust" section, and in the dropdown next to "When using this certificate", select "Always trust".
 
 ## Connect to AMC
+{: #connect-amc-lb}
 
 1. Login to IBM Cloud.
 2. Expand the hamburger icon in the top left corner.
