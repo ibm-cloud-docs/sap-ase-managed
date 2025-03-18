@@ -15,7 +15,11 @@
       },
       {
         "title": "Securely connecting to the Cloud ASE Portal",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-connect"
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-connect-ase-portal"
+      },
+      {
+        "title": "Securely connecting to AMC",
+        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-connect-amc"
       },
       {
         "title": "FAQs",

@@ -18,7 +18,8 @@ toc:
         id: howto
         topics:
           - provisioning.md
-          - connect.md
+          - connectSSP.md
+          - connectAMC.md
           - access.md
     - navgroup:
         id: help

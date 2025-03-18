@@ -9,7 +9,7 @@ subcollection: sap-ase-managed
 {{site.data.keyword.attribute-definition-list}}
 
 # Connecting to the Cloud ASE Portal
-{: #connect}
+{: #connect-ase-portal}
 
 The Cloud ASE Portal provides customers with the ability to
 
@@ -31,7 +31,7 @@ The Cloud ASE Portal is deployed on a private network. To access the portal, VPN
 
 1. Login to IBM Cloud
 2. Go to the Resource List and launch the Secrets Manager instance.
-3. Select "View Secret" for the `$PREFIX-vpn-server-config` under the `$PREFIX-ase-user-secrets` secret group. 
+3. Select "View Secret" for the `<% base environment prefix %>-vpn-server-config` under the `<% base environment prefix %>-ase-user-secrets` secret group. 
 4. Confirm you are in a safe environment and copy the secret value.
 5. Create a OVPN file locally (e.g., `vpn.ovpn`) and paste the contents of the secret into the new file.
 6. Install and open [OpenVPN Connect](https://openvpn.net/).
@@ -62,7 +62,7 @@ See the IBM Cloud App ID documentation for [Managing users](https://cloud.ibm.co
 
 1. Login to IBM Cloud.
 2. Go to the Resource List and launch the Secrets Manager instance.
-3. Select "View Secret" for the `$PREFIX-dba-initial-login` secret under the `$PREFIX-ase-user-secrets` secret group.
+3. Select "View Secret" for the `<% base environment prefix %>-dba-initial-login` secret under the `<% base environment prefix %>-ase-user-secrets` secret group.
 4. Confirm you are in a safe environment and copy the secret value.
 5. Launch your desired internet browser and navigate to the Cloud ASE Portal.
     ![Cloud ASE Portal Login](./images/portal-login.png){: caption="Login to Cloud ASE Portal" caption-side="bottom"}
