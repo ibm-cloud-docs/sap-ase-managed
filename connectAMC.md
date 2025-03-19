@@ -44,8 +44,8 @@ These instructions assume that you are using a Mac-based system.
 3. Select Infrastructure > Network > Load Balancers.
 4. In the Load Balancers for VPC table, select the region.
 5. Copy the hostname for either the primary or the companion load balancer.
-  - primary: `<% base environment prefix %>-<% primary %>-amc-lb-b`
-  - companion: `<% base environment prefix %>-<% companion %>-amc-lb-b`
+    - primary: `<% base environment prefix %>-<% primary %>-amc-lb-b`
+    - companion: `<% base environment prefix %>-<% companion %>-amc-lb-b`
 6. Launch OpenVPN Connect and connect to the VPN.
 7. When prompted to "Enter password", retrieve [a temporary one-time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode). If prompted to log in, enter your IBM Cloud email and password.
 8. Open a new internet browser window or tab.
