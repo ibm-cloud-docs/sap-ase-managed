@@ -7,27 +7,27 @@
     "links": [
       {
         "title": "Getting started",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-getting-started"
+        "href": "?topic=sap-ase-managed-getting-started"
       },
       {
         "title": "Managing IAM",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-access"
+        "href": "?topic=sap-ase-managed-access"
       },
       {
         "title": "Securely connecting to the Cloud ASE Portal",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-connecting-to-the-cloud-ase-portal"
+        "href": "?topic=sap-ase-managed-connecting-to-the-cloud-ase-portal"
       },
       {
         "title": "Securely connecting to AMC",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-connecting-to-amc"
+        "href": "?topic=sap-ase-managed-connecting-to-amc"
       },
       {
         "title": "FAQs",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-faqs"
+        "href": "?topic=sap-ase-managed-faqs"
       },
       {
         "title": "Getting support",
-        "href": "/docs/sap-ase-managed?topic=sap-ase-managed-getting-support"
+        "href": "?topic=sap-ase-managed-getting-support"
       }
     ]
   }
