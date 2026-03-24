@@ -35,7 +35,7 @@ While not included in the initial deployment, at least one SAP ASE instance is n
 {: #resource-configuration}
 
 - **Service name**: The name can be any string and is the name that is used to identify the new deployment.
-- **Resource group**: If you are organizing your services into resource groups](https://cloud.ibm.com/docs/account?topic=account-account_setup), specify the resource group in this field. Otherwise, you can leave it as Default. For more information, see [Managing resource groups](https://cloud.ibm.com/docs/account?topic=account-rgs).
+- **Resource group**: If you are organizing your services into resource groups, specify the resource group in this field. Otherwise, you can leave it as Default. For more information, see [Managing resource groups](https://cloud.ibm.com/docs/account?topic=account-rgs).
 - **Lead Client Name**: The full name of the lead client.
 - **Lead Client Email**: The email address of the lead client where they can be contacted.
 - **SAP Customer ID**: The ID of the SAP Customer.
