@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-12"
+lastupdated: "2024-03-24"
 
 subcollection: sap-ase-managed
 ---
@@ -21,7 +21,7 @@ With a few exceptions, an SAP ASE running on IBM Cloud has the same functionalit
 {: #key-features}
 
 ### Network Architecture
-{: #network-achitecture}
+{: #network-architecture}
 
 The SAP ASE service utilizes a three-tiered network architecture.
 

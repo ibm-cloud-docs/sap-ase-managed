@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-12"
+lastupdated: "2024-03-24"
 
 subcollection: sap-ase-managed
 ---
@@ -14,9 +14,9 @@ subcollection: sap-ase-managed
 Access to SAP ASE Cloud Edition on IBM Cloud instances for users is controlled by the Cloud Identity and Access Management (IAM).
 {: shortdesc}
 
-Every user that accesses the `SAP ASE Cloud Edition on IBM Cloud` service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to `SAP ASE Cloud Edition on IBM Cloud`.
+Every user that accesses the `SAP Adaptive Server Enterprise, Cloud Edition by IBM` service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to `SAP Adaptive Server Enterprise, Cloud Edition by IBM`.
 
-The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by the `SAP ASE Cloud Edition on IBM Cloud` service as operations that you are allowed to perform on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
+The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by the `SAP Adaptive Server Enterprise, Cloud Edition by IBM` service as operations that you are allowed to perform on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
 If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
@@ -27,7 +27,7 @@ IAM access policies enable access to grant at different levels. The following ar
 - Access to an individual service instance in your account
 - Access to a specific resource within an instance
 
-Review the following tables that outline what types of tasks each role allows when you're working with `SAP ASE Cloud Edition on IBM Cloud`. Platform management roles enable users to perform tasks on service resources at the platform level. For example, assign user access to the service and create or delete instances. Service access roles enable user access to `SAP ASE Cloud Edition on IBM Cloud`.
+Review the following tables that outline what types of tasks each role allows when you're working with `SAP Adaptive Server Enterprise, Cloud Edition by IBM`. Platform management roles enable users to perform tasks on service resources at the platform level. For example, assign user access to the service and create or delete instances. Service access roles enable user access to `SAP Adaptive Server Enterprise, Cloud Edition by IBM`.
 
 | Platform role | Description of actions                                                                                                                |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
