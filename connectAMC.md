@@ -33,7 +33,7 @@ These instructions assume that you are using a Mac-based system.
 3. When prompted, enter your MacBook password to allow Keychain access.
 4. On success, the certificate will be added to your keychain.
 5. Once added, find the `*.inrernal.com` certificate in your keychain and click on it to open the details.
-6. Expand the "Trust" section, and in the dropdown next to "When using this certificate", select "Always trust".
+6. Expand the *Trust* section, and in the dropdown next to *When using this certificate*, select *Always trust*.
 7. Close the details window and if prompted, enter your MacBook password to update the settings for the certificate.
 
 ## Connect to AMC
@@ -47,7 +47,7 @@ These instructions assume that you are using a Mac-based system.
     - primary: `<% base environment prefix %>-<% primary %>-amc-lb-b`
     - companion: `<% base environment prefix %>-<% companion %>-amc-lb-b`
 6. Launch OpenVPN Connect and connect to the VPN.
-7. When prompted to "Enter password", retrieve [a temporary one-time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode){: external}. If prompted to log in, enter your IBM Cloud email and password.
+7. When prompted to *Enter password*, retrieve [a temporary one-time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode){: external}. If prompted to log in, enter your IBM Cloud email and password.
 8. Open a new internet browser window or tab.
 9. Paste the AMC load balancer hostname into the address bar, following the format `https://<% amc load balancer hostname %>:8443`.
 10. On the AMC login page, enter the ASE user login credentials.

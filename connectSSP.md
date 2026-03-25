@@ -55,7 +55,7 @@ The Cloud ASE Portal is integrated with [IBM Cloud App ID](https://www.ibm.com/p
 
 Users must be registered in IBM Cloud App ID's Cloud Directory to access the Portal. With Cloud Directory, you can manage your users in a scalable registry by using pre-built functionality that enhances security and self-service. 
 
-See the IBM Cloud App ID documentation for [Managing users](https://cloud.ibm.com/docs/appid?topic=appid-cd-users){: external} in Cloud Directory.
+See the IBM Cloud App ID documentation for [Managing users](/docs/appid?topic=appid-cd-users){: external} in Cloud Directory.
 
 ## Login to the Cloud ASE Portal 
 {: #login-to-the-cloud-ase-portal}

@@ -16,7 +16,7 @@ If you experience an issue or have questions when using SAP Adaptive Server Ente
 
 Leverage the following resources before opening a support case.
 
-- Review the [FAQs](?topic=sap-ase-managed-faqs) in the documentation.
+- Review the [FAQs](/docs/sap-ase-managed?topic=sap-ase-managed-faqs) in the documentation.
 - Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 - Review the [SAP Official Documentation](https://help.sap.com/docs/ASE_CLOUD_IBM?state=TEST){: external}.
 
