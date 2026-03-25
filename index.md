@@ -13,7 +13,7 @@ subcollection: sap-ase-managed
 
 SAP Adaptive Server Enterprise, Cloud Edition by IBM is the SAP ASE data server hosted and managed by IBM Cloud.
 
-IBM Cloud for SAP provides your enterprise with full cloud capabilities. Running SAP ASE on IBM Cloud enables you to quickly move your workloads from an on-premises server to the cloud, taking advantage of its lower cost of ownership and enterprise-level services, and faster deployment time. Once you are running on IBM Cloud, you pay only for the server time used, reducing the amount of hardware that remains idle because it is unnecessary. The start-up costs of running on IBM Cloud are also much lower than purchasing and maintaining your own hardware.
+IBM Cloud for SAP provides your enterprise with full cloud capabilities. Running SAP ASE on IBM Cloud enables you to quickly move your workloads from an on-premises server to the cloud, taking advantage of its minimized cost of ownership and enterprise-level services, and faster deployment time. Once you are running on IBM Cloud, you pay only for the server time used, reducing the amount of hardware that remains idle because it is unnecessary. The start-up costs of running on IBM Cloud are also much more cost-efficient than purchasing and maintaining your own hardware.
 
 With a few exceptions, an SAP ASE running on IBM Cloud has the same functionality as an on-premises version, and you perform the same administrative tasks. Clients connect to the SAP ASE running on IBM Cloud in the same way as they connect to an on-premises SAP ASE.
 
