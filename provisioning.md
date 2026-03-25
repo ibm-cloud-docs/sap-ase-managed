@@ -12,7 +12,8 @@ subcollection: sap-ase-managed
 # Provisioning
 {: #provisioning}
 
-Provision SAP Adaptive Server Enterprise Cloud Edition by IBM Cloud through the [Catalog](/catalog/services/sap-adaptive-server-enterprise-cloud-edition-by-ibm-cloud){: external}.
+Provision SAP Adaptive Server Enterprise Cloud Edition by IBM Cloud through the <!-- Link checker skip -->
+[Catalog](/catalog/services/sap-adaptive-server-enterprise-cloud-edition-by-ibm-cloud){: external}.
 {: shortdesc}
 
 ## Provisioning through IBM Cloud Catalog
