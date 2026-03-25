@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-12"
+lastupdated: "2024-03-24"
 
 subcollection: sap-ase-managed
 ---
@@ -9,7 +9,7 @@ subcollection: sap-ase-managed
 {{site.data.keyword.attribute-definition-list}}
 
 # Connecting to AMC
-{: #connect-amc}
+{: #connecting-to-amc}
 
 The Administration and Management Console (AMC) for SAP ASE is a web-based tool for managing and administering your SAP ASE servers.
 
@@ -37,7 +37,7 @@ These instructions assume that you are using a Mac-based system.
 7. Close the details window and if prompted, enter your MacBook password to update the settings for the certificate.
 
 ## Connect to AMC
-{: #connect-amc-lb}
+{: #connect-to-amc}
 
 1. Log in to IBM Cloud.
 2. Expand the hamburger icon in the top left corner.
@@ -47,7 +47,7 @@ These instructions assume that you are using a Mac-based system.
     - primary: `<% base environment prefix %>-<% primary %>-amc-lb-b`
     - companion: `<% base environment prefix %>-<% companion %>-amc-lb-b`
 6. Launch OpenVPN Connect and connect to the VPN.
-7. When prompted to "Enter password", retrieve [a temporary one-time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode). If prompted to log in, enter your IBM Cloud email and password.
+7. When prompted to "Enter password", retrieve [a temporary one-time passcode from IBM Cloud](https://iam.cloud.ibm.com/identity/passcode){: external}. If prompted to log in, enter your IBM Cloud email and password.
 8. Open a new internet browser window or tab.
 9. Paste the AMC load balancer hostname into the address bar, following the format `https://<% amc load balancer hostname %>:8443`.
 10. On the AMC login page, enter the ASE user login credentials.

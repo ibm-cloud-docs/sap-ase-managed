@@ -1,7 +1,8 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-12"
+lastupdated: "2024-03-24"
+
 
 subcollection: sap-ase-managed
 ---
@@ -11,10 +12,10 @@ subcollection: sap-ase-managed
 # Provisioning
 {: #provisioning}
 
-Provision SAP Adaptive Server Enterprise Cloud Edition by IBM Cloud through the [catalog](https://test.cloud.ibm.com/catalog/services/sap-adaptive-server-enterprise-cloud-edition-by-ibm-cloud).
+Provision SAP Adaptive Server Enterprise Cloud Edition by IBM Cloud through the [Catalog](/catalog/services/sap-adaptive-server-enterprise-cloud-edition-by-ibm-cloud){: external}.
 {: shortdesc}
 
-## Provisoning through the IBM Cloud Catalog
+## Provisioning through IBM Cloud Catalog
 {: #provisioning-through-ibm-cloud-catalog}
 
 Provision from the console by specifying the following parameters:
@@ -34,7 +35,7 @@ While not included in the initial deployment, at least one SAP ASE instance is n
 {: #resource-configuration}
 
 - **Service name**: The name can be any string and is the name that is used to identify the new deployment.
-- **Resource group**: If you are organizing your services into [resource groups](https://cloud.ibm.com/docs/account?topic=account-account_setup), specify the resource group in this field. Otherwise, you can leave it as Default. For more information, see [Managing resource groups](https://cloud.ibm.com/docs/account?topic=account-rgs).
+- **Resource group**: If you are organizing your services into resource groups, specify the resource group in this field. Otherwise, you can leave it as Default. For more information, see [Managing resource groups](https://cloud.ibm.com/docs/account?topic=account-rgs).
 - **Lead Client Name**: The full name of the lead client.
 - **Lead Client Email**: The email address of the lead client where they can be contacted.
 - **SAP Customer ID**: The ID of the SAP Customer.
@@ -62,7 +63,7 @@ Depending on the plan selected, further options can be applied to the instance c
 {: caption="Post-Provisioning Options" caption-side="bottom"}
 
 ### SAP ASE Instance Size Options
-{: #sap-ase-instance-sizing-options}
+{: #sap-ase-instance-size-options}
 
 SAP ASE Instances come in a range of sizes. Refer to the table to determine the best size for your instance.
 
