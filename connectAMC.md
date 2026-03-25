@@ -33,7 +33,7 @@ These instructions assume that you are using a Mac-based system.
 3. When prompted, enter your MacBook password to allow Keychain access.
 4. On success, the certificate will be added to your keychain.
 5. Once added, find the `*.inrernal.com` certificate in your keychain and click on it to open the details.
-6. Expand the "Trust" section, and in the dropdown next to "When using this certificate", select "Always trust".
+6. Expand the <i>Trust</i> section, and in the dropdown next to <i>When using this certificate</i>, select <i>Always trust</i>
 7. Close the details window and if prompted, enter your MacBook password to update the settings for the certificate.
 
 ## Connect to AMC

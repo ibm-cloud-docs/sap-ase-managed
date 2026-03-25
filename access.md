@@ -50,6 +50,6 @@ Review the following tables that outline what types of tasks each role allows wh
 {: row-headers}
 {: class="simple-tab-table"}
 {: caption="SAP ASE Cloud Edition on IBM Cloud Service Access Roles" caption-side="bottom"}
-{: #iamrolesplatformsapaseceonibmcloud}
+{: #iamrolesservicesapaseceonibmcloud}
 {: tab-title="SAP ASE Cloud Edition on IBM Cloud Service roles"}
 {: tab-group="IAMSAPASECE"}
